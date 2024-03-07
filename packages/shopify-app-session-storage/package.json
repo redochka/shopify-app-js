@@ -38,7 +38,7 @@
     "test": "jest",
     "test:ci": "yarn test",
     "rollup": "rollup -c --bundleConfigAsCjs",
-    "clean": "rimraf dist/*",
+    "clean": "rimraf .rollup.cache dist",
     "changeset": "changeset",
     "version": "changeset version",
     "release": "yarn build && changeset publish"
@@ -63,10 +63,15 @@
     "@shopify/shopify-api": "^9.5.1"
   },
   "devDependencies": {},
+  "jest": {
+    "passWithNoTests": true,
+    "preset": "ts-jest"
+  },
   "files": [
+    "!node_modules",
     "dist/*",
+    "dist/node_modules/*",
     "!bundle/*",
-    "!tsconfig.tsbuildinfo",
-    "!node_modules"
+    "!tsconfig.tsbuildinfo"
   ]
 }
