@@ -6,7 +6,7 @@
   "scripts": {
     "build": "turbo build",
     "lint": "turbo lint --parallel",
-    "test": "turbo run test --concurrency 3",
+    "test": "turbo run test --concurrency 1",
     "test:ci": "turbo run test:ci --concurrency 1",
     "release": "turbo build && changeset publish",
     "dev": "turbo dev --no-cache --continue",
