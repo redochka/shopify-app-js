@@ -1,4 +1,5 @@
 import {setAbstractFetchFunc} from '@shopify/shopify-api/runtime';
+import {type AbstractFetchFunc} from '@shopify/shopify-api/runtime';
 import {installGlobals} from '@remix-run/node';
 
 import '../node';
@@ -6,8 +7,8 @@ import '../node';
 installGlobals();
 
 const fetchFunc = fetch;
-setAbstractFetchFunc(async (...args) => {
+setAbstractFetchFunc((async (...args) => {
   const response = await fetchFunc(...args);
 
   return response;
-});
+}) as AbstractFetchFunc);

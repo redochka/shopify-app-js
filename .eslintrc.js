@@ -15,6 +15,9 @@ module.exports = {
       files: [
         '**/setup-jest.ts',
         'packages/shopify-app-express/src/__tests__/test-helper.ts',
+        'packages/admin-api-client/src/rest/tests/client.test.ts',
+        'packages/shopify-api/adapters/__e2etests__/rollup.test-web-api-app.config.ts',
+        'packages/storefront-api-client/src/tests/setupTests.ts',
       ],
       rules: {
         'import/no-extraneous-dependencies': 0,

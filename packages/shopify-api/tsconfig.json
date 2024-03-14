@@ -1,0 +1,18 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "."
+  },
+  "include": [
+    "lib/**/*.ts",
+    "future/**/*.ts",
+    "adapters/**/*.ts",
+    "rest/**/*.ts",
+    "runtime/**/*.ts",
+  ],
+  "exclude": [
+    "**/*.test.ts", "**/test/*", "**/__tests__/*",
+  ],
+  "extends": "../../tsconfig.base.json",
+}

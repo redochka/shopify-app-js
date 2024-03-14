@@ -23,6 +23,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "jsx": "react-jsx",
+    "types": ["@cloudflare/workers-types", "node", "jest"],
     "lib": [
       "dom",
       "dom.iterable",

@@ -45,7 +45,9 @@
   "peerDependencies": {
     "@shopify/shopify-api": "^9.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@shopify/shopify-api": "^9.5.0"
+  },
   "files": [
     "dist/*",
     "!node_modules",
