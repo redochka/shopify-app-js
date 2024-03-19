@@ -4205,11 +4205,6 @@
     globby "^11.1.0"
     typescript "^4.8.3 || ^5.0.0"
 
-"@shopify/graphql-client@^0.9.4":
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/@shopify/graphql-client/-/graphql-client-0.9.4.tgz#751cd2134d29fb6e18df248b4e6b82116ecb1077"
-  integrity sha512-6O2FEda9iGpeFftBvicLzgMu3mq0ovfsK3IDz6G89bU5R06YDccdKLF/qyp/bzdl2jsbqvNtgEBL00xx95utPA==
-
 "@shopify/graphql-codegen@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@shopify/graphql-codegen/-/graphql-codegen-0.0.1.tgz#5d1633d148db7fb091b51af50087b55cca8a6ff1"
@@ -4264,28 +4259,6 @@
     jest-matcher-utils "^26.6.2"
     react-is "^18.0.0"
     react-reconciler "^0.28.0"
-
-"@shopify/shopify-api@^9.5.1":
-  version "9.5.1"
-  resolved "https://registry.yarnpkg.com/@shopify/shopify-api/-/shopify-api-9.5.1.tgz#ec139100ad9f3f7555d614199859d82013c71e5d"
-  integrity sha512-HHMzBG3gkxhAaSJOS1P4ry4Lpn1Pr0QcEnNxOfQaK4Gb1Dst2FB9/YWMcKJpObUQNqhvvg34UsJ67v0zCJDNfQ==
-  dependencies:
-    "@shopify/admin-api-client" "^0.2.8"
-    "@shopify/network" "^3.2.1"
-    "@shopify/storefront-api-client" "^0.3.3"
-    compare-versions "^6.1.0"
-    isbot "^4.4.0"
-    jose "^5.2.3"
-    node-fetch "^2.6.1"
-    tslib "^2.0.3"
-    uuid "^9.0.0"
-
-"@shopify/storefront-api-client@^0.2.3":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@shopify/storefront-api-client/-/storefront-api-client-0.2.4.tgz#952fc54ef1593df3d536cb3ad478fa5e77958288"
-  integrity sha512-BWlmLgghMwHCSMUoGQhGU35RTqAOzaW86djdTcCU4/gNygEj56mSgH5sb7Rq+5Uiq0N9kX9CMoJY4TSQR2AIbA==
-  dependencies:
-    "@shopify/graphql-client" "^0.9.4"
 
 "@shopify/typescript-configs@^5.1.0":
   version "5.1.0"
@@ -9524,7 +9497,7 @@ jiti@^1.17.1, jiti@^1.18.2:
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.0.tgz#7c97f8fe045724e136a397f7340475244156105d"
   integrity sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==
 
-jose@^5.0.0, jose@^5.2.2, jose@^5.2.3:
+jose@^5.0.0, jose@^5.2.2:
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/jose/-/jose-5.2.3.tgz#071c87f9fe720cff741a403c8080b69bfe13164a"
   integrity sha512-KUXdbctm1uHVL8BYhnyHkgp3zDX5KW8ZhAKVFEfUbU2P8Alpzjb+48hHvjOdQIyPshoblhzsuqOwEEAbtHVirA==
