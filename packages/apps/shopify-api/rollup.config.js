@@ -1,11 +1,11 @@
 import fs from 'fs';
 
-import * as pkg from '../../package.json';
+import * as pkg from './package.json';
 import {
   getPlugins,
   esmConfigs,
   cjsConfigs,
-} from '../../config/rollup/rollup.config';
+} from '../../../config/rollup/rollup-utils';
 
 export function componentConfig(input, outDir) {
   return [

@@ -1,5 +1,7 @@
-import {getConfig} from '../../config/rollup/rollup.config';
+import {getConfig} from '../../../config/rollup/rollup-utils';
 
-const config = getConfig('src/postgresql.ts');
+import * as pkg from './package.json';
+
+const config = getConfig(pkg, 'src/postgresql.ts');
 
 export default config;

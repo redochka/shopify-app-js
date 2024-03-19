@@ -102,10 +102,7 @@
     "wrangler": "^3.28.4"
   },
   "files": [
-    "**/*.d.ts",
-    "**/*.d.ts.map",
-    "**/*.js",
-    "**/*.js.map",
+    "dist/*",
     "!bundle/*",
     "!node_modules",
     "!adapters/__e2etests__/*"

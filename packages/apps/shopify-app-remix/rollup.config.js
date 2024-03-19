@@ -1,11 +1,12 @@
 import fs from 'fs';
 
-import * as pkg from '../../package.json';
 import {
   getPlugins,
   esmConfigs,
   cjsConfigs,
-} from '../../config/rollup/rollup.config';
+} from '../../../config/rollup/rollup-utils';
+
+import * as pkg from './package.json';
 
 const basePath = `${__dirname}/src/server/adapters`;
 const adapterConfigs = fs
