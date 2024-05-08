@@ -1,5 +1,7 @@
 # @shopify/shopify-app-session-storage-test-utils
 
+## 2.0.6
+
 ## 2.0.5
 
 ### Patch Changes
